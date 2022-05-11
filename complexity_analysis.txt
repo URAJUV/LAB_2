@@ -1,0 +1,8 @@
+Time complexity:
+
+The time complexity of the Huffman algorithm is O(nlogn).
+Using a heap to store the weight of each tree, each iteration requires O(logn)
+time to determine the cheapest weight and insert the new weight. There are O(n) iterations, one for each item.
+
+Space compleexity:
+Space complexity is O(k) for the tree and O(n) for the decoded text.
