@@ -28,10 +28,9 @@ File Read:
 Huffman coding uses a specific method for choosing the representation for each symbol, resulting in a prefix code (sometimes called "prefix-free codes", that is, the bit string representing some particular symbol is never a prefix of the bit string representing any other symbol). Huffman coding is such a widespread method for creating prefix codes that the term "Huff
 man code" is widely used as a synonym for "prefix code" even when such a code is not produced by Huffman's algorithm.
 
----------CODE TABLE---------
-----------------------------
+CODE TABLE
 CHAR  FREQ  CODE
-----------------------------
+
 \n    1            001000001
 ' '   78                 010
 "     6               101110
@@ -64,7 +63,7 @@ v     2             00100001
 w     3               001011
 x     5               011111
 y     8               001001
-----------------------------
+
 
 Encoded:
 001000100101001100011001000101110110101001101001100000100111010111100100010100001111000101001110010000110000111011011001011001001011010101000111111001011000110000001001100001110100100110110110001100110001100111010111100101100101101110101010111100001010111000111111011100011101100100100111101010011000011101001011101110011011011001000010010011000110111100110000100000110
